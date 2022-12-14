@@ -9,7 +9,10 @@
 text_1 = ["йцу", "фыв", "ячс", "цук", "йцукен", "йцу", "йцу", "цук", "йцукен", "йцу"]
 
 def find_sec_str(txt_1, sec_str):
-
+    '''
+    Функция поиска второго вхождения строки в списке
+    Список строк начинается с индекса 1
+    '''
     list_index = [i for i, string in enumerate(txt_1, start = 1) if sec_str == string] 
     print(list_index)
     try:
