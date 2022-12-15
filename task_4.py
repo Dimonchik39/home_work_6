@@ -5,6 +5,9 @@ from func_list import random_list
 from func_list import give_int
 
 def even_num(lst):
+    '''
+    Функция выбора четных чисел в списке
+    '''
     if (lst % 2) == 0:
         return True
     else:
